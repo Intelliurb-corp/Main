@@ -1,0 +1,95 @@
+/* Custom styles for Intelliurb website */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f8f8f8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-nav a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar-nav a:hover {
+  color: #f8f8f8;
+}
+
+.card {
+  border-radius: 0;
+  border: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.btn-primary {
+  background-color: #3399CC;
+  border-color: #3399CC;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #2A88B2;
+  border-color: #2A88B2;
+}
+
+footer {
+  background-color: #444;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .navbar-nav a {
+    font-size: 0.9rem;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+
+  footer {
+    font-size: 0.7rem;
+  }
+}
