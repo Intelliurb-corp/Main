@@ -1,106 +1,125 @@
 /* Custom styles for Intelliurb website */
 
+/* Set default font for body */
 body {
-  font-family: 'Open Sans', sans-serif;
-  background-color: #eeeeff;
+font-family: 'Open Sans', sans-serif;
+background-color: #eeeeff;
 }
 
+/* Set bold font for headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
+font-family: 'Open Sans', sans-serif;
+font-weight: bold;
 }
 
+/* Set container width to 100% */
+.container {
+width: 100%;
+}
+
+/* Reset padding and margin for navbar and set width to 100% */
 .navbar {
-  padding: 0;
-  margin: 0;
-  width: 100%;
+padding: 0;
+margin: 0;
+width: 100%;
 }
 
+/* Style navbar brand */
 .navbar-brand {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #fff;
+font-size: 2rem;
+font-weight: bold;
+color: #fff;
 }
 
+/* Style navbar links */
 .navbar-nav a {
-  color: #fff;
-  font-weight: bold;
+color: #fff;
+font-weight: bold;
 }
 
+/* Style hover effect for navbar links */
 .navbar-nav a:hover {
-  color: #f8f8f8;
+color: #f8f8f8;
 }
 
+/* Style dropdown menu background and text color */
 .dropdown-menu {
-  background-color: #0077be;
-  color: #fff;
+background-color: #0077be;
+color: #fff;
 }
 
+/* Style card border and shadow, and add hover effect */
 .card {
-  border-radius: 0;
-  border: none;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease-in-out;
+border-radius: 0;
+border: none;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+transition: all 0.3s ease-in-out;
 }
 
 .card:hover {
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-  transform: translateY(-2px);
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+transform: translateY(-2px);
 }
 
+/* Style card title and text */
 .card-title {
-  font-size: 1.2rem;
-  font-weight: bold;
+font-size: 1.2rem;
+font-weight: bold;
 }
 
 .card-text {
-  font-size: 1rem;
-  line-height: 1.5;
+font-size: 1rem;
+line-height: 1.5;
 }
 
+/* Style primary button background and border color, and add hover effect */
 .btn-primary {
-  background-color: #3399CC;
-  border-color: #3399CC;
-  font-weight: bold;
+background-color: #3399CC;
+border-color: #3399CC;
+font-weight: bold;
 }
 
 .btn-primary:hover {
-  background-color: #2A88B2;
-  border-color: #2A88B2;
+background-color: #2A88B2;
+border-color: #2A88B2;
 }
 
+/* Style footer background, text color, font size, and padding */
 footer {
-  background-color: #777777;
-  color: #fff;
-  font-size: 0.8rem;
-  padding: 20px 0;
-  text-align: center;
+background-color: #777777;
+color: #fff;
+font-size: 0.8rem;
+padding: 20px 0;
+text-align: center;
 }
 
+/* Style footer paragraph margin */
 footer p {
-  margin-bottom: 0;
+margin-bottom: 0;
 }
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
 
-  .navbar-brand {
-    font-size: 1.5rem;
-  }
+/* Reduce font size for navbar brand and links, and card title and text */
+.navbar-brand {
+font-size: 1.5rem;
+}
 
-  .navbar-nav a {
-    font-size: 0.9rem;
-  }
+.navbar-nav a {
+font-size: 0.9rem;
+}
 
-  .card-title {
-    font-size: 1.1rem;
-  }
+.card-title {
+font-size: 1.1rem;
+}
 
-  .card-text {
-    font-size: 0.9rem;
-  }
+.card-text {
+font-size: 0.9rem;
+}
 
-  footer {
-    font-size: 0.7rem;
-  }
+/* Reduce font size for footer */
+footer {
+font-size: 0.7rem;
+}
 }
